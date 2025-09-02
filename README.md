@@ -109,7 +109,7 @@ Make sure MongoDB is running locally or update the MONGO_URI in your .env file.
 ### 1. The main Website
 ![image alt](https://github.com/Sainath-K-tech/MegaMart-Ecommerce-/blob/60877336e969350e40bcaa1b80a5ad6cd98e4ffe/Screenshot%202025-09-02%20161537.png)
 
-### 2.Cart and Checkout page
+### 2. Cart and Checkout page
 ![image alt](https://github.com/Sainath-K-tech/MegaMart-Ecommerce-/blob/60877336e969350e40bcaa1b80a5ad6cd98e4ffe/Screenshot%202025-09-02%20161711.png)
 
 ## Contributing
