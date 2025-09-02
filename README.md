@@ -104,105 +104,12 @@ Make sure MongoDB is running locally or update the MONGO_URI in your .env file.
 - Edit existing products
 - Delete products
 
-### User Experience
-- Browse products on the homepage
-- Use category dropdowns to filter products
-- Add items to cart with quantity controls
-- View cart with price breakdown
-- Register/login for personalized experience
+##📸Screenshots
+## The main Website
+![image alt](https://github.com/Sainath-K-tech/MegaMart-Ecommerce-/blob/60877336e969350e40bcaa1b80a5ad6cd98e4ffe/Screenshot%202025-09-02%20161537.png)
 
-## API Endpoints
-
-### Authentication
-- `POST /api/auth/register` - User registration
-- `POST /api/auth/login` - User login
-- `POST /api/auth/setup-admin` - Create admin account
-- `GET /api/auth/profile` - Get user profile
-
-### Products
-- `GET /api/products` - Get all products
-- `GET /api/products/:id` - Get single product
-- `GET /api/products/category/:category` - Get products by category
-- `POST /api/products` - Create product (Admin only)
-- `PUT /api/products/:id` - Update product (Admin only)
-- `DELETE /api/products/:id` - Delete product (Admin only)
-
-## Project Structure
-
-```
-ecommerce/
-├── client/                 # React frontend
-│   ├── src/
-│   │   ├── components/    # Reusable components
-│   │   ├── context/       # React context (Cart)
-│   │   ├── pages/         # Page components
-│   │   └── App.jsx        # Main app component
-│   └── package.json
-├── server/                 # Node.js backend
-│   ├── models/            # MongoDB models
-│   ├── routes/            # API routes
-│   ├── middleware/        # Authentication middleware
-│   └── server.js          # Server entry point
-└── README.md
-```
-
-## Features in Detail
-
-### Shopping Cart
-- **Quantity Controls**: +/- buttons for adjusting item quantities
-- **Price Calculation**: Real-time total with discounts
-- **Remove Items**: Delete button for each cart item
-- **Persistent State**: Cart data persists across sessions
-
-### Admin Dashboard
-- **Product Form**: Comprehensive form for product details
-- **Image Management**: URL-based image handling
-- **Category Selection**: Dropdown with predefined categories
-- **Stock Management**: Track product inventory
-- **Real-time Updates**: Immediate reflection of changes
-
-### Security Features
-- **JWT Authentication**: Secure token-based authentication
-- **Password Hashing**: bcrypt for secure password storage
-- **Protected Routes**: Admin-only access to sensitive endpoints
-- **Input Validation**: Server-side validation for all inputs
-
-## Customization
-
-### Adding New Categories
-Update the categories array in `AdminDashboard.jsx`:
-```javascript
-const categories = ['Electronics', 'Fashion', 'Home', 'Beauty', 'Sports', 'Books', 'Toys', 'Automotive', 'YourCategory'];
-```
-
-### Styling Changes
-- Main styles: `client/src/App.css`
-- Navbar styles: `client/src/components/Navbar.css`
-- Cart styles: `client/src/pages/Cart.css`
-- Admin styles: `client/src/components/AdminDashboard.css`
-
-### Slideshow Content
-Modify the slides array in `client/src/components/Slideshow.jsx`:
-```javascript
-const slides = [
-  { text: "🔥 MEGA SALE - UP TO 70% OFF", color: "#ff4757" },
-  // Add your own slides here
-];
-```
-
-## Troubleshooting
-
-### Common Issues
-1. **MongoDB Connection Error**: Ensure MongoDB is running and the connection string is correct
-2. **Port Already in Use**: Change the PORT in .env file
-3. **CORS Issues**: Check that the server is running on the correct port
-4. **JWT Errors**: Verify the JWT_SECRET is set in your .env file
-
-### Development Tips
-- Use `npm run dev` for both client and server during development
-- Check browser console and server logs for error messages
-- Ensure all environment variables are properly set
-- Test admin functionality after creating the first admin account
+##Cart and Checkopt page
+![image alt](https://github.com/Sainath-K-tech/MegaMart-Ecommerce-/blob/60877336e969350e40bcaa1b80a5ad6cd98e4ffe/Screenshot%202025-09-02%20161711.png)
 
 ## Contributing
 
@@ -212,7 +119,7 @@ const slides = [
 4. Test thoroughly
 5. Submit a pull request
 
-## License
+
 
 This project is licensed under the MIT License.
 
