@@ -47,7 +47,7 @@ A full-stack e-commerce application built with React, Node.js, and MongoDB featu
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone <[repository-url](https://github.com/Sainath-K-tech/MegaMart-Ecommerce-)>
 cd ecommerce
 ```
 
